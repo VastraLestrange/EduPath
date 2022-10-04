@@ -13,8 +13,8 @@ public class Polynomial{
 			this.arr_coeff[i] = arr[i];
 		}
 		if (arr_size < 100){
-			for (int i = 0; i < arr_size; i++){
-				this.arr_coeff[i] = arr[i];
+			for (int i = arr_size; i < 100; i++){
+				this.arr_coeff[i] = 0;
 			}
 		}
 	}
@@ -44,16 +44,3 @@ public class Polynomial{
 		else {return false;}
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
